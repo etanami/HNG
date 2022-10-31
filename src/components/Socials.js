@@ -3,7 +3,7 @@ import Github from "../images/Github.png"
 
 const Socials = () => {
   return(
-    <div>
+    <div className="socials">
         <img src={Slack} alt="" />
         <img src={Github} alt="" />
     </div>

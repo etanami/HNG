@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-/* Profile Header*/
+/* PROFILE HEADER */
 
 .header {
   display: flex;
@@ -72,4 +72,16 @@ section {
   border-radius: 0.5rem;
   width: 100%;
   text-decoration: none;
+}
+
+/* SOCIALS */
+
+.socials {
+  margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  gap: 2rem;
 }
