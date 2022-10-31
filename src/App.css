@@ -44,7 +44,7 @@ body {
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: #101828;
-  padding-top: 1.5rem;
+  padding: 1.5rem 0 0.5rem;
 }
 
 #slack {
@@ -53,12 +53,8 @@ body {
 
 /* LINK SECTION */
 
-section {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
+.link--card {
+  margin-top: 1.5rem;
   padding: 0 1rem;
 }
 
@@ -137,13 +133,13 @@ footer {
   #twitter {
     font-size: 1.25rem;
     line-height: 1.875rem;
+    padding-bottom: 2rem;
   }
 
   /* LINK SECTION */
 
-  section {
-    margin: 3.5rem 7rem 0;
-    gap: 2rem;
+  .link--card {
+    margin: 1.5rem 7rem 0;
     padding: 0 2rem;
   }
 

@@ -1,15 +1,15 @@
 
-const LinkSection =(props) => {
+const LinkButton =(props) => {
   return (
-    <section>
+    <div className="link--card">
       <a 
         href={props.href} 
         id={props.id}
         title={props.title}
       >{props.name}
       </a>
-    </section>
+    </div>
   )
 }
 
-export default LinkSection;
+export default LinkButton;
