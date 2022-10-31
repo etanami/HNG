@@ -45,3 +45,31 @@ body {
 #slack {
   display: none;
 }
+
+/* LINK SECTION */
+
+section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+#btn__twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #101828;
+  height: 4.25rem;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 0.5rem;
+  width: 100%;
+  text-decoration: none;
+}
