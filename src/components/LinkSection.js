@@ -30,7 +30,7 @@ const LinkSection =() => {
       <a 
         href="https://books.zuri.team/design-rules" 
         id="book__design" 
-      >Design Bokks
+      >Design Books
       </a>
     </section>
   )
