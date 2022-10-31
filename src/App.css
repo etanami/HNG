@@ -1,6 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
+h1, h2, p {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
+}
+
+/* Profile Header*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 1rem;
+  padding: 0 1rem;
+}
+
+.share {
+  width: 40px;
+  background: #F9FAFB;
+  border: 1px dashed #D0D5DD;
+  border-radius: 1.25rem;
+  display: flex;
+  margin-left: auto;
+}
+
+#profile__img {
+  width: 5.5rem;
+  background-image: url("./images/profile-image.png");
+}
+
+#twitter {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #101828;
+  padding-top: 1.5rem;
+}
+
+#slack {
+  display: none;
 }
