@@ -4,8 +4,8 @@ import Github from "../images/Github.png"
 const Socials = () => {
   return(
     <div className="socials">
-        <img src={Slack} alt="" />
-        <img src={Github} alt="" />
+        <a href="https://hng9.slack.com/"><img src={Slack} alt="" /></a>
+        <a href="https://github.com/etanami"><img src={Github} alt="" /></a>
     </div>
   )
 }

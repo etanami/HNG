@@ -8,7 +8,7 @@ const Header = () => {
       <img src={Share} alt="Share" className="share" />
       <img src={ShareLg} alt="Share" className="share--lg" />
       <img src={Profile} alt="Profile" id="profile__img" />
-      <h2 id="twitter">Etanamie</h2>
+      <h2 id="twitter">@etanamie</h2>
       <p id="slack">Etanami Olatunji</p>
     </div>
   )
