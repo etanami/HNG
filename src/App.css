@@ -20,14 +20,18 @@ body {
   padding: 0 1rem;
 }
 
-.share {
-  width: 40px;
+.share, .share--lg {
+  width: 2.5rem;
   background: #F9FAFB;
   border: 1px dashed #D0D5DD;
   border-radius: 1.25rem;
   display: flex;
   margin-left: auto;
   margin-bottom: -1.25rem;
+}
+
+.share--lg {
+  display: none;
 }
 
 #profile__img {
@@ -79,13 +83,13 @@ section {
 
 .socials {
   margin: 1.5rem 0 2rem;
-  padding: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 1.5rem 1rem;
-  gap: 2rem;
+  gap: 1.5rem;
 }
+
 /* FOOTER */
 
 footer {
@@ -93,16 +97,88 @@ footer {
 }
 
 .footer__container {
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem;
   border-top: 1px solid #EAECF0;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
+  padding-top: 2rem;
 }
 
-.footer__zuri {
-  padding-top: 2rem;
+.footer__text {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #667085;
+}
+
+/* DESKTOP STYLING */
+
+@media screen and (min-width: 992px) {
+
+  /* PROFILE HEADER */
+
+  .header {
+    margin: 4rem 7rem 0;
+    padding: 0 2rem;
+  }
+
+  .share {
+    display: none;
+  }
+
+  .share--lg {
+    display: block;
+    margin-right: 13rem;
+  }
+
+  #twitter {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  /* LINK SECTION */
+
+  section {
+    margin: 3.5rem 7rem 0;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+
+  #btn__twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    height: 4.75rem;
+  }
+
+  /* SOCIALS */
+
+  .socials {
+    margin: 1.5rem 7rem 4rem;
+    padding: 1.5rem 2rem;
+    gap: 1.5rem;
+  }
+
+  /* FOOTER */
+
+  footer {
+    padding: 3rem 0;
+  }
+
+  .footer__container {
+    margin: 0 5rem;
+    padding: 2rem 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+  }
+
+  .footer__text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
