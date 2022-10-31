@@ -4,9 +4,11 @@ import I4G from "../images/I4G.png"
 const Footer = () => {
   return(
     <footer>
-      <img src={Logo} alt="" />
-      <p>HNG Internship 9 Frontend Task</p>
-      <img src={I4G} alt="" />
+      <div className="footer__container">
+        <img src={Logo} alt="" className="footer__zuri"/>
+        <p className="footer__text">HNG Internship 9 Frontend Task</p>
+        <img src={I4G} alt="" />
+      </div>
     </footer>
   );
 }
